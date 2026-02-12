@@ -1,4 +1,4 @@
-# uv InstallationGuide
+# RHEL 9 uv 설치 가이드 (RHEL 9 uv Installation Guide)
 
 `uv`는 Astral에서 개발한 **초고속 Python 패키지 및 가상환경 관리
 도구**로, `pip`, `pip-tools`, `virtualenv`를 하나로 대체합니다.
