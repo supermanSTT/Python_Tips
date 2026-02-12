@@ -63,13 +63,13 @@ sudo dnf install -y podman-compose
 ## 5. 기본 명령어 퀵스타트
 설치가 완료되었다면 다음 명령어로 테스트해 보세요.
 
-|작업|명령어|
+| 작업 | 명령어 |
 |----|----|
-|이미지 검색|podman search nginx|
-|이미지 풀(Pull)|podman pull nginx|
-|컨테이너 실행|podman run -d --name web -p 8080:80 nginx|
-|실행 중인 컨테이너 확인|podman ps|
-|컨테이너 중지/삭제|podman stop web / podman rm web|
+| 이미지 검색 | podman search nginx |
+| 이미지 풀(Pull) | podman pull nginx |
+| 컨테이너 실행 | podman run -d --name web -p 8080:80 nginx |
+| 실행 중인 컨테이너 확인 | podman ps |
+| 컨테이너 중지/삭제 | podman stop web / podman rm web |
 
 ## 💡 추가 팁
 RHEL 9에서는 podman.socket을 활성화하면 Docker API와 호환되는 툴(예: 가상 도우미, 대시보드)을 그대로 사용할 수 있습니다. sudo systemctl enable --now podman.socket 명령어를 사용해 보세요.
